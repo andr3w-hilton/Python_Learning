@@ -1,0 +1,8 @@
+def is_int(x):
+  absolute = abs(x)
+  rounded = round(absolute)
+  return absolute - rounded == 0
+  
+#this is an example of taking a number (x) and checking if it is an integer
+#If the difference between a number and that same number rounded is greater 
+#than zero, what does that say about that particular number?
